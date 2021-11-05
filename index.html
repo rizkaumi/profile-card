@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Profile Card</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,60 +15,75 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
   <body>
-    <div class="card-wrapper">
-      <div class="card_container">
-        <div class="card_left">
-          <div class="image-container">
-            <img src="img/avatar.svg" alt="avatar" class="image" />
+    <div class="wrapper">
+      <div class="card">
+        <div class="card__left">
+          <div class="card__left-img-box">
+            <img src="img/avatar.svg" alt="avatar" class="card__left-img" />
           </div>
         </div>
-        <div class="card_right">
-          <div class="detail-group margin-large">
-            <h1 class="detail-1">
-              <span class="name">Muhammad Dafiq Arba</span>
-              <span class="occupation">Prodemy #7</span>
+        <div class="card__right">
+          <div class="card__right-id-box">
+            <h1 class="card__right-id">
+              <span class="card__right-id-name">Muhammad Dafiq Arba</span>
+              <span class="card__right-id-batch">Prodemy #7</span>
             </h1>
           </div>
-          <div class="information">
-            <div class="information-left">
-              <div class="information-detail">
-                <p class="email-label">Email</p>
-                <p class="email">dafiqarba@gmail.com</p>
+          <div class="card__right-detail-box">
+            <div class="card__right-detail">
+              <div class="card__right-detail-group">
+                <p class="card__right-detail-label">Email</p>
+                <p class="card__right-detail-data">dafiqarba@gmail.com</p>
               </div>
-              <div class="information-detail">
-                <p class="mobile-label">Mobile</p>
-                <p class="mobile">085727276367</p>
+              <div class="card__right-detail-group">
+                <p class="card__right-detail-label">Mobile</p>
+                <p class="card__right-detail-data">085727276367</p>
               </div>
             </div>
-            <div class="information-right">
-              <div class="information-detail">
-                <p class="mobile-label">Pendidikan</p>
-                <p class="mobile">T. Telekomunikasi</p>
+            <div class="card__right-detail">
+              <div class="card__right-detail-group">
+                <p class="card__right-detail-label">Pendidikan</p>
+                <p class="card__right-detail-data">T. Telekomunikasi</p>
               </div>
-              <div class="information-detail">
-                <p class="mobile-label">Keahlian</p>
-                <p class="mobile">HTML, CSS, JS, PHP</p>
+              <div class="card__right-detail-group">
+                <p class="card__right-detail-label">Keahlian</p>
+                <p class="card__right-detail-data">HTML, CSS, JS, PHP</p>
               </div>
             </div>
           </div>
-          <div class="social-container">
-            <ul class="social">
+          <div class="card__right-social">
+            <div class="card__right-social-box">
+              <a href="https://twitter.com/dafiqarba">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="card__right-social-box">
+              <a href="https://github.com/dafiqarba">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="card__right-social-box">
+              <a href="https://instagram.com/dafiqarba">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <!-- <ul class="social">
               <li>
-                <a href="https://twitter.com/boringgan">
+                <a href="https://twitter.com/dafiqarba">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/bubblegan">
+                <a href="https://github.com/dafiqarba">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="https://facebook.com/sheng.hong.gan">
+                <a href="https://instagram.com/dafiqarba">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>

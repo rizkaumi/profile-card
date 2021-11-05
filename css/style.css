@@ -1,0 +1,155 @@
+/* bg-color = #FFEFB2 */
+/* main-color = #5BC6AC */
+/* white = #F9F9F9 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffefb2;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  font-family: "Lato", sans-serif;
+}
+
+.card_container {
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+  width: 600px;
+  height: 280px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.card_left {
+  background-color: #5bc6ac;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 70%;
+}
+
+.card_right {
+  height: 100%;
+  width: 60%;
+
+  color: #484946;
+  padding: 15px;
+}
+
+.detail-group {
+  margin-bottom: 5px;
+}
+
+.margin-large {
+  margin-bottom: 20px;
+}
+
+.detail-1 {
+  margin-top: 10px;
+  text-align: center;
+}
+.name {
+  display: block;
+  margin-bottom: -12px;
+
+  font-size: 22px;
+}
+
+.occupation {
+  font-size: 15px;
+  color: #f9f9f9;
+
+  display: inline-block;
+  background-color: #484946;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.information-left {
+  width: 50%;
+  margin-right: 5px;
+}
+
+.information-detail {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.email-label,
+.mobile-label {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.email,
+.mobile {
+  border-bottom: 2px solid #5bc6ac;
+  width: 152px;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #484946;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.social li {
+  height: 2rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  width: 2rem;
+}
+
+.social a {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  height: 2rem;
+  justify-content: center;
+
+  width: 2rem;
+}
